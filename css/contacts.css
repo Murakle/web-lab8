@@ -1,0 +1,23 @@
+.map-container {
+    margin-top: 20px;
+    width: 55%;
+    float: left;
+}
+
+.map-image {
+    width: 90%;
+}
+.contacts-container {
+    margin-top: 80px;
+    width: 45%;
+    float: right;
+}
+
+.contacts-list li{
+    text-align: center;
+    list-style: none;
+    line-height: 2em;
+    text-decoration: none;
+    color: #314438;
+}
+

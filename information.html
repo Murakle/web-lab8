@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/information.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Caveat:wght@500&family=Dancing+Script:wght@500&family=Indie+Flower&family=Quicksand:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet"> 
+    <title>Handmade sweatshirt</title>
+    <script src="https://kit.fontawesome.com/d7cc4028cd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header>
+        <img id="header-logo" src="./images/header-logo.png" alt="logo">
+        <nav id="main-menu">
+            <ul class="main-menu-ul">
+                <li class="main-menu-li">
+                    <a class="main-menu-a" href="./index.html">Main</a>
+                </li>
+                <li class="main-menu-li">
+                    <a class="main-menu-a current-menu-a" href="./information.html">Information</a>
+                </li>
+                <li class="main-menu-li">
+                    <a class="main-menu-a" href="./contacts.html">Contacts</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="bg-container">
+        <div class="headers-container">
+            <h2 class="welcome-header">BEST HANDMADE SWEATSHIRTS</h1>
+            <h3 class="welcome-subheader">Made by Ivanov Ivan & Co.</h3>
+        </div>
+    </div>
+    <div class="container">
+        <section class="about-products">
+            <div class="product-composition">
+                <h2 class="composition-header">What do we make sweatshirts from?</h2>
+                <div class="composition-content">
+                    <ul class="product-types">
+                        <li id="winter">
+                            <div class="bar-container">
+                                <h3 class="bar-header">Winter season</h3>
+                                <div class="composition-bar">
+                                    <div class="bar-outline"></div>
+                                    <div data-percentage="65" class="bar wool-bar winter-wool-bar"></div>
+                                    <div data-percentage="20" class="bar cotton-bar winter-cotton-bar"></div>
+                                </div>
+                            </div>
+                            <i class="fas fa-caret-right"></i>
+                            <p class="composition-conclusion">
+                              More warmth on a cold night 
+                            </p>
+                        </li>
+                        <li id="autumn">
+                            <div class="bar-container">
+                                <h3 class="bar-header">Autumn season</h3>
+                                <div class="composition-bar">
+                                    <div class="bar-outline"></div>
+                                    <div data-percentage="18" class="bar wool-bar autumn-wool-bar"></div>
+                                    <div data-percentage="71" class="bar cotton-bar autumn-cotton-bar"></div>        
+                                </div>
+                            </div>
+                            <i class="fas fa-caret-right"></i>
+                            <p class="composition-conclusion">
+                                Lightness but at the same time protection from the wind  
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                
+            </div>
+        </section>
+        <section class="our-advantages">
+            <h2 class="advantages-header">Why exactly our sweatshirts?</h2>
+            <div class="advantages-container">
+                <div class="advantage">
+                    <div class="advantage-icon-container">
+                        <img class="advantage-icon" src="./images/icon1.png" alt="advantage-icon">
+                    </div>
+                    <p class="advantage-desription">No intermediaries hence lower price</p>
+                </div>
+                <div class="advantage">
+                    <div class="advantage-icon-container">
+                        <img class="advantage-icon" src="./images/icon2.png" alt="advantage-icon">
+                    </div>
+                    <p class="advantage-desription">Worldwide shipping</p>
+                </div>
+                <div class="advantage">
+                    <div class="advantage-icon-container">
+                        <img class="advantage-icon" src="./images/icon3.png" alt="advantage-icon">
+                    </div>
+                    <p class="advantage-desription">Handmade with love</p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <ul class="social-links">
+            <li><a href="https://twitter.com"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="https://instagram.com"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://facebook.com"><i class="fab fa-facebook-square"></i></a></li>
+            <li><a href="https://linked.in"><i class="fab fa-linkedin-in"></i></a></li>
+        </ul>
+        <p class="footer-text">Ivanov Ivan and Co. @All rights reserverd P.S This is educational project, the shop isn't real all photos are taken from public resources</p>
+    </footer>
+    <button class="move-up-button"><i class="fas fa-angle-up"></i></button>
+    <script src="./js/move_up_button.js"></script>
+    <script src="./js/bar.js"></script>
+</body>
+</html>
