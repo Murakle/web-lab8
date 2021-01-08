@@ -1,0 +1,30 @@
+.bg-container {
+    height: 40vh;
+}
+.headers-container {
+    top: 100px;
+}
+.product-header {
+    margin-top: 1.5em;
+    margin-left: 1em;
+}
+.product-information-container {
+    display: flex;
+    padding: 1em;
+}
+.description-container {
+    padding: 2em 6em;
+    text-align: center;
+}
+.product-sizes {
+    margin: 3em 2em;
+}
+.cost-button-container {
+    display: flex;
+    justify-content: space-between;
+}
+.product-cost {
+    position: initial;
+    float: left;
+    width: 50%;
+}

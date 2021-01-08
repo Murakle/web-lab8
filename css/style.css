@@ -14,6 +14,15 @@ h2 {
     font-size: 40px;
     font-family: 'Arvo', serif;
 }
+img {
+    transition: all 0.5s;
+    object-fit: cover;
+    display: block;
+}
+
+img:hover {
+    transform: scale(1.03);
+}
 .container {
     max-width: 1300px;
     margin: 0 auto;
@@ -142,13 +151,8 @@ header {
     height: 300px;
     border-radius: 50%;
     display: block;
-    transition: all 0.5s;
-    object-fit: cover;
 }
 
-.product-image:hover {
-    transform: scale(1.03);
-}
 .image-cost-container {
     position: relative;
 }
@@ -193,10 +197,11 @@ header {
 }
 
 .product-buy-button {
+    display: block;
     border-radius: 15px;
     padding: 7px;
     margin: 5%;
-    width: 90%;
+    width: calc(90% - 20px);
     text-align: center;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -398,4 +403,46 @@ footer {
     font-family: 'Roboto' sans-serif;
     font-size: 0.8em;
     margin-left: 1em;
+}
+
+.stop-scrolling {
+    height: 100%;
+    overflow: hidden;
+}
+
+.popup-block {
+    display: none;
+    position: fixed;
+    width: 900px;
+    height: 300px;
+    z-index: 3;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fdfff8;
+    padding: 50px;
+    border: 3px solid #c72020;
+    border-radius: 15px;
+}
+.popup-text {
+    width: 50%;
+    float: left;
+    margin-top: 2em;
+}
+.popup-block img {
+    width: 45%;
+    float: right;
+}
+
+.button-close-popup {
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    font-size: 2em;
+    background: none;
+    border: none;
+}
+
+.popup-block-show {
+    display: block;   
 }
